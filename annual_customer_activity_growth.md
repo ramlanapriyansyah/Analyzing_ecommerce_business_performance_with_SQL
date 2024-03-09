@@ -88,7 +88,8 @@ FROM
 GROUP BY 1
 ORDER BY 1;
 
--- Ekstrak Table Master dari Ketiga Metrics
+-- Membuat Table Master dari Ketiga Metrics
+CREATE TABLE annual_customer_activity_growth AS
 SELECT
 	mau.tahun,
 	monthly_active_user,
