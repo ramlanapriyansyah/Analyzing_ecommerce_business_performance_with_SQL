@@ -2,7 +2,7 @@
 Dalam suatu perusahaan mengukur performa bisnis sangatlah penting untuk melacak, memantau, dan menilai keberhasilan atau kegagalan dari berbagai proses bisnis. Oleh karena itu, dalam paper ini akan menganalisa performa bisnis untuk sebuah perusahan eCommerce,  dengan memperhitungkan beberapa metrik bisnis yaitu pertumbuhan pelanggan, kualitas produk, dan tipe pembayaran.
 
 # Tools dan Dataset
-Dataset: dapat dilihat pada folder ![dataset](https://github.com/ramlanapriyansyah/Analyzing_ecommerce_business_performance_with_SQL/tree/main/dataset) </br>
+Dataset: dapat dilihat pada folder [dataset](https://github.com/ramlanapriyansyah/Analyzing_ecommerce_business_performance_with_SQL/tree/main/dataset) </br>
 Tools: PostgreSQL melalui DBeaver
 
 # Data Preparation
@@ -11,7 +11,7 @@ Hal-hal yang dilakukan pada tahap Data Preparation adalah sebagai berikut:
 2. **Menambahkan Constraint**, berupa Primary Key dan Foreign Key sehingga menghasilkan Entity Relationship Diagram (ERD) seperti yang terlihat pada gambar berikut.
 ![ERD (1)](https://github.com/ramlanapriyansyah/Analyzing_ecommerce_business_performance_with_SQL/assets/135192484/1c7c2192-e884-4634-92d8-749b31e442ef)
 
-Syntax query untuk menambahkan Primary Key dan Foreign Key dapat dilihat pada file `data_preparation`
+Syntax query untuk menambahkan Primary Key dan Foreign Key dapat dilihat pada file [data_preparation.md](https://github.com/ramlanapriyansyah/Analyzing_ecommerce_business_performance_with_SQL/blob/main/data_preparation.md)
 
 # Annual Customer Activity Growth Analysis
 Pada tahap ini dilakukan analisis terhadap customer activity tahunan melalui pembuatan table master yang terdiri dari beberapa metric, yaitu:
@@ -22,7 +22,7 @@ Pada tahap ini dilakukan analisis terhadap customer activity tahunan melalui pem
   
 ![customer_activity_table](https://github.com/ramlanapriyansyah/Analyzing_ecommerce_business_performance_with_SQL/assets/135192484/a6ca84da-30a0-491e-a1b9-371595ad049e)
 
-Tabel Annual Customer Activiy Growth merupakan hasil ekstraksi dari beberapa tabel menggunakan query seperti yang terlampir pada file `annual_customer_activity_growth`
+Tabel Annual Customer Activiy Growth merupakan hasil ekstraksi dari beberapa tabel menggunakan query seperti yang terlampir pada file [annual_customer_activity_growth.md](https://github.com/ramlanapriyansyah/Analyzing_ecommerce_business_performance_with_SQL/blob/main/annual_customer_activity_growth.md)
 ### Temuan Hasil
 1. Rata-rata jumlah pelanggan aktif bulanan (Monthly Active User) mengalami peningkatan dari tahun ke tahun. Dimulai dari 109 pelanggan pada tahun 2016, meningkat pesat menjadi 3,758 pada tahun 2017, kemudian terus meningkat menjadi total 5,401 pelanggan pada tahun 2018.
 2. Pertumbuhan customer cukup signifikan dari tahun ke tahun. Jumlah customer baru meningkat pesat dari yang hanya berjumlah 329 customer pada tahun 2016 menjadi 45,101 pada tahun 2017. Dan angka tersebut terus meningkat hingga mencapai 54,011 customer baru pada tahun 2018.
@@ -38,7 +38,7 @@ Pada tahap ini dilakukan analisis terhadap kualitas kategori produk tahunan mela
 
   ![product_category_table](https://github.com/ramlanapriyansyah/Analyzing_ecommerce_business_performance_with_SQL/assets/135192484/a52726a2-0ade-4c22-b12e-6d75970e5a5e)
 
-  Tabel Annual Product Category Quality di atas dihasilkan dengan query seperti yang terlampir pada file `annual_product_category_analysis`
+  Tabel Annual Product Category Quality di atas dihasilkan dengan query seperti yang terlampir pada file [annual_product_category_analysis.md](https://github.com/ramlanapriyansyah/Analyzing_ecommerce_business_performance_with_SQL/blob/main/annual_product_category_analysis.md)
 ### Temuan Hasil
 1. Total revenue/pendapatan perusahaan meningkat tajam, dimana sebelumnya hanya di bawah 1 juta pada tahun 2016, meningkat menjadi 6,92 juta pada tahun 2017, dan terus meningkat hingga mencapai angka 8.45 juta pada tahun 2018.
 2. Di satu sisi, total cancel order yang dialami perusahaan juga terus meningkat setiap tahun. Dari sebanyak 26 cancel order pada tahun 2016, menjadi 265 pada tahun 2017, dan meningkat lagi menjadi 334 pada tahun 2018.
@@ -51,7 +51,7 @@ Pada tahap ini dilakukan pembuatan tabel yang berisi informasi mengenai pengguna
 ![annual_payment_type_usage_table](https://github.com/ramlanapriyansyah/Analyzing_ecommerce_business_performance_with_SQL/assets/135192484/edd6d16c-8cf5-4925-902b-1c6409e92240)
 
 
-Query dapat dilihat pada file: `annual_payment_type_usage`
+Query dapat dilihat pada file: [annual_payment_type_usage.md](https://github.com/ramlanapriyansyah/Analyzing_ecommerce_business_performance_with_SQL/blob/main/annual_payment_type_usage.md)
 
 ### Temuan Hasil
 1. Tipe pembayaran favorit secara all time adalah pembayaran melalui credit_card, yaitu sebanyak 76,800; disusul boleto sebanyak 19,800; voucher sebanyak 5,800; dan debit_card sebanyak 1,500. Sedangkan tipe pembayaran lainnya hanya di bawah 100.
