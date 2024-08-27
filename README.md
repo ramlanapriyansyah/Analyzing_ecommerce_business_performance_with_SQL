@@ -6,8 +6,8 @@ Dataset can be seen here: [dataset](https://github.com/ramlanapriyansyah/Analyzi
 Tools: PostgreSQL through DBeaver
 
 # Data Preparation
-Hal-hal yang dilakukan pada tahap Data Preparation adalah sebagai berikut:
-1. **Import Dataset**. Importing dataset that consists of customers, geolocation, order_items, order_payments, order_reviews, orders, products, and sellers tables into RDBMS.
+The things done in the Data Preparation stage are as follows:
+1. **Import Dataset**. Importing data from customers, geolocation, order_items, order_payments, order_reviews, orders, products, and sellers tables into RDBMS.
 2. **Add Constraint**. Adding Primary Key and Foreign Key to create Entity Relationship Diagram (ERD) below.
 ![ERD (1)](https://github.com/ramlanapriyansyah/Analyzing_ecommerce_business_performance_with_SQL/assets/135192484/1c7c2192-e884-4634-92d8-749b31e442ef)
 
